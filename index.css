@@ -1,3 +1,16 @@
+
+.input-container {
+    background: #6943FF;
+    width: 550px;
+    height: 285px;
+}
+
+.input-box {
+    width: 117px;
+    height: 83px;
+    border: 2px solid #B295FF
+}
+
 p {
     color: red;
 }
