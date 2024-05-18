@@ -21,7 +21,7 @@
 }
 
 #input-el {
-    width: 117px;
+    width: 217px;
     height: 83px;
     border: 2px solid #B295FF;
     font-family: Inter;
@@ -58,4 +58,32 @@
     border: 2px solid #B295FF;
     /* cursor to pointer */
     cursor: pointer;
+}
+
+
+.output-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+    background: #1F2937;
+    width: 550px;
+
+}
+
+.length-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #273549;
+    width: 500px;
+    margin: 10px;
+}
+
+h3 {
+    color: #CCC1FF;
+}
+
+p {
+    color: white;
 }
