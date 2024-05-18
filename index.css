@@ -3,14 +3,59 @@
     background: #6943FF;
     width: 550px;
     height: 285px;
+    display: flex; /* Use flexbox to align children */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+    text-align: center; 
 }
 
-.input-box {
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-el {
+    color: white;
+}
+
+#input-el {
     width: 117px;
     height: 83px;
-    border: 2px solid #B295FF
+    border: 2px solid #B295FF;
+    font-family: Inter;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 24.39px;
+    text-align: center;
+    margin-bottom: 20px;
+    background: #6943FF;
+    color: white;
+
+
 }
 
-p {
-    color: red;
+#convert-btn {
+    width: 117px;
+    height: 42px;
+    top: 209px;
+    left: 217px;
+    padding: 9px 27.5px 9px 27.5px;
+    gap: 0px;
+    border-radius: 5px;
+    border: 2px solid #B295FF;    /* border-radius: 0px 1px 2px 0px #0000000D; */
+    background: #FFFFFF;
+    font-family: Inter;
+    /* font-size: 16px; */
+    font-weight: 500;
+
+}
+
+#convert-btn:hover {
+    background: #B295FF;
+    color: #FFFFFF;
+    border: 2px solid #B295FF;
+    /* cursor to pointer */
+    cursor: pointer;
 }
